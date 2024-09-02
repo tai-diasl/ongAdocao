@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url("./img/patinhasEcoracoes.jpg");
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #617784;
+}
+
+.navbar-logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-links li {
+  margin-left: 30px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  transition-duration: 0.5s;
+}
+
+.navbar-links a:hover {
+  background-color: #4c5d66;
+  border-radius: 5px;
+  font-size: larger;
+}
+
+.btn-portfolio {
+  background-color: #f047ff;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.btn-portfolio:hover {
+  background-color: #f047ffb9;
+}
+
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+
+div img {
+  max-width: 100%;
+  height: 100vh;
+  opacity: 85%;
+}
+
+.que-tal {
+  margin: 0;
+  padding: 20px;
+  color: darkblue;
+  background-color: #ffffff92;
+}
+
+.que-tal h1 {
+  font-size: 38px;
+}
+
+.que-tal p {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+div .box {
+  width: 200px;
+  height: 200px;
+  margin: 40px;
+}
+
+.box p,
+.box h2 {
+  margin: 0.75rem 0.3rem;
+  
+}
+
+.boxes p {
+  font-size: 15px;
+}
+
+.boxes .purple {
+  background-color: #c9aef1;
+  border: 8px inset lightblue;
+  transition-duration: 1s;
+}
+
+.purple:hover {
+  color: transparent;
+  transition-duration: 1s;
+  border: 8px outset lightblue;
+  padding: 3rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blue {
+  background-color: lightblue;
+  border: 8px outset pink;
+  transition-duration: 1s;
+}
+
+.blue:hover {
+  color: transparent;
+  transition-duration: 1s;
+  border: 8px outset lightblue;
+  padding: 3rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pink {
+  background-color: pink;
+  border: 8px inset #c9aef1;
+  transition-duration: 1s;
+}
+
+.pink:hover {
+  background-size: cover;
+  color: transparent;
+  transition-duration: 1s;
+  border: 8px outset lightblue;
+  padding: 3rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cao1:hover {
+  background-image: url("./img/caozinho1_lucky.png");
+}
+
+.cao2:hover {
+  background-image: url("./img/caozinho2_lola.png");
+}
+
+.cao3:hover {
+  background-image: url("./img/caozinho3_pipoca.png");
+}
+
+.cao4:hover {
+  background-image: url("./img/caozinho4_caraEcaramelo.jpg");
+  width: 200px;
+  height: 200px;
+}
+
+.cao5:hover {
+  background-image: url("./img/caozinho5_max.jpg");
+}
+
+.cao6:hover {
+  background-image: url("./img/caozinho6_bella.jpg");
+}
+
+.cao7:hover {
+  background-image: url("./img/caozinho7_thor.jpg");
+}
+
+.cao8:hover {
+  background-image: url("./img/caozinho8_joaquim.jpg");
+}
+
+.cao9:hover {
+  background-image: url("./img/caozinho9_duda.jpg");
+}
+
+.cao10:hover {
+  background-image: url("./img/caozinho10_bob.jpg");
+}
+
+.cao11:hover {
+  background-image: url("./img/caozinho11_pitt.jpg");
+}
+
+.cao12:hover {
+  background-image: url("./img/caozinho12_mel.jpg");
+}
+
+.cao13:hover {
+  background-image: url("./img/caozinho13_severina.jpg");
+}
+
+.cao14:hover {
+  background-image: url("./img/caozinho14_ottolino.jpg");
+}
+
+.cao15:hover {
+  background-image: url("./img/caozinho15_julie.jpg");
+}
+
+footer {
+  font-size: 14px;
+  background: #617784ea;
+  color: #ffffff;
+  padding: 0.5rem;
+  bottom: 0;
+}
+
+footer a {
+  color: #fff;
+}
+.heart {
+  font-size: 16px;
+}

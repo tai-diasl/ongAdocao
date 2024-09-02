@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONG AdoCão | Contato</title>
+  <link rel="stylesheet" href="./style.css"/>
+  <link rel="stylesheet" href="./style2.css"/>
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="navbar-logo">
+          <a href="./index.html">ONG AdoCão</a>
+      </div>
+      <ul class="navbar-links">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="https://www.institutoluisamell.com/" target="_blank">Instituto Luisa Mell</a></li>
+          <li><a href="https://paraisodosfocinhos.com.br/" target="_blank">Paraíso dos Focinhos</a></li>
+          <li><a href="https://institutocaramelo.org/" target="_blank">Instituto Caramelo</a></li>
+          <li><a href="./contato.html">Contato</a></li>
+          <li><a href="https://tai-diasl.github.io/my_portfolio/" class="btn-portfolio" target="_blank">Portfolio</a></li>
+      </ul>
+  </nav>
+  </header>
+
+  <main>
+    <h1>Vamos adotar?</h1>
+    <p>Preencha suas informações! A AdoCão entrará em contato em breve!</p>
+    <form action="">
+      <div class="row">
+        <div>
+          <label for="name">Nome</label><br>
+          <input type="text" name="name" id="name" autofocus required>
+        </div>
+        <div>
+          <label for="email">Email</label><br>
+          <input type="email" name="email" id="email" required>
+        </div>
+      </div>
+      <div class="row">
+        <div>
+          <label for="postal-code">CEP</label><br>
+          <input type="postal-code" name="postal-code" id="postal-code">
+        </div>
+        <div>
+          <label for="state">Estado</label><br>
+          <input type="text" name="state" id="state">
+        </div>
+      </div>
+      <div class="row">
+        <div>
+          <label for="city">Cidade</label><br>
+          <input type="text" name="city" id="city">
+        </div>
+        <div>
+          <label for="district">Bairro</label><br>
+          <input type="text" name="district" id="district">
+        </div>
+      </div>
+      <div class="row">
+        <div>
+          <label for="address">Endereço</label><br>
+          <input type="text" name="address" id="address">
+        </div>
+        <div>
+          <label for="complement">Complemento</label><br>
+          <input type="text" name="complement" id="complement">
+        </div>
+      </div>
+      <div class="row">
+        <div>
+          <label for="whatsapp">WhatsApp</label><br>
+          <input type="number" name="whatsapp" id="whatsapp">
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <label>É tutor de outros pets? *</label><br>
+          <input type="radio" name="more-pets" id="yes">
+          <label for="yes">Sim</label><br>
+          <input type="radio" name="more-pets" id="no">
+          <label for="no">Não</label>
+        </div>
+      
+        <div>
+          <select name="dogs" id="dogs">
+            <option>Escolha o seu pet</option>
+            <option value="lucky">Lucky</option>
+            <option value="lolla">Lolla</option>
+            <option value="pipoca">Pipoca</option>
+            <option value="caraEcaramelo">Cara & Caramelo</option>
+            <option value="max">Max</option>
+            <option value="bela">Bela</option>
+            <option value="thor">Thor</option>
+            <option value="joaquim">Joaquim</option>
+            <option value="duda">Duda</option>
+            <option value="bob">Bob</option>
+            <option value="pitt">Pitt</option>
+            <option value="mel">Mel</option>
+            <option value="severina">Severina</option>
+            <option value="ottolino">Ottolino</option>
+            <option value="julie">Julie</option>
+          </select>
+        </div>
+        <div>
+          <input type="checkbox" name="i-declare" id="i-declare" required>
+          <label for="i-declare">Declaro que as informações fornecidas são precisas e completas</label>
+        </div>
+        <div>
+          <button type="submit" onclick="msgDeConfirmacao()">Quero Adotar!</button>
+        </div>
+      </div>
+    </form>
+  </main>
+
+  <footer>
+    <p>
+      Made with <span class="heart">♡</span> by 
+      <a href="https://tai-diasl.github.io/my_portfolio/" target="_blank">Taís Dias</a>
+    </p>
+    <p>2024</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
